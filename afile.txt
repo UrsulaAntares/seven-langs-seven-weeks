@@ -1,0 +1,14 @@
+2019-12-02 17:11:05 -0500 - User logged in
+
+This is inside the file. 
+It's got several lines.        
+This line is the last one so far.
+
+2019-12-02 17:11:35 -0500 - User logged in
+
+2019-12-02 17:11:48 -0500 - User logged in
+
+2019-12-02 17:12:25 -0500 - User logged in
+
+2019-12-02 17:20:34 -0500 - User logged in
+This is text inserted by the 'write' command
