@@ -82,12 +82,18 @@ File.open("afile.txt", "a") {|file| file.write "\n#{Time.now} - User logged in\n
 # File.write("afile.txt", "\nThis is text inserted by the 'write' command", mode: "a")
 # some file methods are .rename, .size, .exists?, .extname, .basename, .dirname, .directory?, .file?
 
-
+File.open("rubycsv.txt", "a") { |file| file.write "Blah, Blah, Blah"}
 
 
 # Dir.glob("*.rb") lists things; this works with all kinds of wildcard combinations
 # other methods to use on directories are .pwd, .empty?, .exists?, .mkdir, 
 
 # Day 3
-# ..deals with more class modification
-# Macros are module methods that do this. 
+# ..deals with more class modification. They play with the method_missing, which could make debugging harder if done bluntly.
+# Macros are module methods that do this. A class is also a module.
+# Metaprogramming is writing programs with programs or altering the classes.
+
+#ActiveRecord and builder are considered frameworks.
+
+
+

@@ -12,3 +12,4 @@ This line is the last one so far.
 
 2019-12-02 17:20:34 -0500 - User logged in
 This is text inserted by the 'write' command
+2019-12-05 15:38:22 -0500 - User logged in
