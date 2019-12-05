@@ -31,6 +31,8 @@ text = "Here's some text"
 #initialize function instantiates an object of the class
 #A Module can be included in Classes as a Mixin; can contain constants and functions. 
 
+# module definition begins "module ______" like the good ol' "Class _____"
+
 #enumerable classes must implement each
 #comparable classes implement <=>; a <=> b returns -1 if a is greater, 1 if be is, and 0 if niether 
 # .any? and .all? methods return true if the condition is met for ...any or all, respectively. 
@@ -85,3 +87,7 @@ File.open("afile.txt", "a") {|file| file.write "\n#{Time.now} - User logged in\n
 
 # Dir.glob("*.rb") lists things; this works with all kinds of wildcard combinations
 # other methods to use on directories are .pwd, .empty?, .exists?, .mkdir, 
+
+# Day 3
+# ..deals with more class modification
+# Macros are module methods that do this. 
